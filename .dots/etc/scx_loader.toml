@@ -1,0 +1,13 @@
+# Set your preferred default scheduler here
+default_sched = "scx_lavd"
+
+# Set the mode (Auto, Gaming, LowLatency, PowerSave, or Server)
+default_mode = "Auto"
+
+# This "structure" allows configuring flags for each scheduler mode of particular scx scheduler
+#[scheds.'scheduler']
+#auto_mode = []
+#gaming_mode = []
+#lowlatency_mode = []
+#powersave_mode = []
+#server_mode = []

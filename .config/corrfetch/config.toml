@@ -1,0 +1,17 @@
+keys = "╭───────────╮, username,├───────────┤,distro, kernel, de, pkgs, shell, ram, uptime, lifetime,╰───────────╯"
+
+[logo]
+method = "img"
+path = "~/Pictures/.dots/fetch.png"
+charset = [" ", "·", "─", "│", "┐", "└", "┘", "┌", "├", "┤", "┬", "┴", "┼", "╭", "╮", "╯", "╰", " "]
+
+[format]
+username = "│ \u001b[00m  user   \u001b[00m│ \u001b[00m{user}@{host}\u001b[0m"
+distro =   "│ \u001b[37m󰻀  distro \u001b[00m│ \u001b[37m{distro} {arch}\u001b[0m"
+kernel =   "│ \u001b[37m󰌢  kernel \u001b[00m│ \u001b[37m{kernel}\u001b[0m"
+de =       "│ \u001b[36m  WM     \u001b[00m│ \u001b[36m{de}\u001b[0m"
+pkgs =     "│ \u001b[36m󰏖  pkgs   \u001b[00m│ \u001b[36m{native} ({manager})\u001b[0m"
+shell =    "│ \u001b[33m  shell  \u001b[00m│ \u001b[33m{shell}\u001b[0m"
+ram =      "│ \u001b[33m󰍛  RAM    \u001b[00m│ \u001b[33m{used}/{total} | {swap_used}/{swap_total} MiB ({used_percentage}|{swap_used_percentage})%\u001b[0m"
+uptime =   "│ \u001b[32m󰦖  uptime \u001b[00m│ \u001b[32m{d} day(s), {h} hour(s), {m} minute(s)\u001b[0m"
+lifetime = "│ \u001b[32m󰦖  OS age \u001b[00m│ \u001b[32m{mo} month(s), {d} day(s)\u001b[0m"
