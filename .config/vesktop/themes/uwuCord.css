@@ -1,0 +1,161 @@
+/**
+ * @name uwuCord
+ * @version 3.0.7
+ * @description A theme based on Google's Material Design, Material-Discord and pink color palette
+ * @author CapnKitten, nijon4rch
+ *
+ * @website http://github.com/CapnKitten
+ * @donate https://paypal.me/capnkitten
+ */
+
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css");
+
+/* Material You addon */
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css");
+
+/* MATERIAL YOU DARK THEME SETTINGS */
+.theme-dark {
+	/* Adjusted modifiers to match the #20000f background from kitty config */
+	--app-button-active: hsl(343, 100%, 96.5%, 0.1);
+	--app-button-inactive: hsl(343, 100%, 96.5%, 0.05);
+	--main-color: hsl(332, 100%, 6.3%); /* background: #20000f */
+	--main-alt: hsl(332, 100%, 3.3%);
+	--accent-hsl--material-you: 342, 100%, 70.6%; /* foreground: #ff6996 */
+	--accent-text-color--material-you: hsl(332, 100%, 6.3%);
+	--accent-secondary-color: hsl(from hsl(342, 100%, 70.6%) h calc(s * 0.2) calc(l * 0.5));
+	--accent-secondary-text-color: hsl(332, 100%, 6.3%);
+	--server-color: transparent;
+	--server-folder-color: hsl(343, 100%, 96.5%, 0.085);
+	--status-picker-color: hsl(332, 100%, 15.3%);
+	--sidebar-panel-color: hsl(332, 100%, 11.3%);
+	--chat-color: var(--main-color);
+	--message-color: hsl(332, 100%, 11.3%);
+	--message-color-hover: hsl(332, 100%, 15.3%);
+	--message-color-alt: hsl(332, 100%, 10.3%);
+	--attachment-color: hsl(332, 100%, 6.3%);
+	--main-textarea-color: hsl(332, 100%, 15.3%);
+	--main-textarea-inner-color: hsl(332, 100%, 8.3%);
+	--main-textarea-button-color: hsl(343, 7%, 62%); /* color8: #a5979b */
+	--popout-color: hsl(332, 100%, 16.3%);
+	--popout-color-alt: hsl(332, 100%, 11.3%);
+	--popout-header-border: hsl(343, 100%, 96.5%, 0.125);
+	--separator-color: hsl(343, 100%, 96.5%, 0.125);
+	--header-secondary: hsl(345, 100%, 98.4%); /* color15: #fff7f9 */
+	--profile-body-background-color: hsl(332, 100%, 11.3%);
+	--input-color: hsl(332, 100%, 13.3%);
+	--input-color-alt: hsl(332, 100%, 19.3%);
+	--input-border-color: hsl(342, 100%, 23.1%); /* color5: #760023 */
+	--input-text-color: hsl(343, 100%, 96.5%); /* color7: #ffedf2 */
+	--input-placeholder-color: hsl(343, 7%, 62%); /* color8: #a5979b */
+	--input-pill-color: hsl(343, 100%, 96.5%, 0.125);
+	--tab-border-color: hsl(0, 0%, 100%);
+	--interactive-muted: hsl(343, 7%, 41%);
+	--text-disabled: hsl(343, 7%, 40%);
+	--menu-item-hover: hsl(343, 100%, 96.5%, 0.075);
+	--menu-item-select: hsl(343, 100%, 96.5%, 0.1);
+	--menu-item-select-accent-opacity: 0.3;
+	--menu-item-text-color: hsl(342, 100%, 86%); /* color14: #ffbbcf */
+	--card-color-outlined: transparent;
+	--card-color-filled: hsl(332, 100%, 10.3%);
+	--card-color-hover: hsl(332, 100%, 13.3%);
+	--card-color-active: hsl(342, 100%, 23.1%); /* color5: #760023 */
+	--card-color-alt: hsl(332, 100%, 15.3%);
+	--card-color-alt-hover: hsl(332, 100%, 18.3%);
+	--card-border-color: hsl(342, 100%, 23.1%); /* color5: #760023 */
+	--card-header-text-color: hsl(343, 100%, 96.5%);
+	--card-button-color: hsl(343, 100%, 96.5%, 0.09);
+	--card-button-color-hover: hsl(343, 100%, 96.5%, 0.135);
+	--activity-card-color: hsl(343, 100%, 96.5%, 0.0475);
+	--activity-card-color--hover: hsl(343, 100%, 96.5%, 0.06);
+	--activity-card-color--active: hsl(343, 100%, 96.5%, 0.07);
+	--activity-card-color--inset: hsl(343, 100%, 96.5%, 0.05);
+	--button-link-color: hsl(343, 100%, 96.5%);
+	--button-link-text-color: hsl(343, 100%, 96.5%);
+	--button-border-color: hsl(342, 100%, 23.1%);
+	--switch-knob-color: hsl(343, 7%, 47%);
+	--switch-knob-color-modal: hsl(343, 7%, 56%);
+	--switch-knob-checked: hsl(332, 100%, 6.3%);
+	--switch-slider-color: hsl(332, 100%, 17.3%);
+	--switch-slider-color-modal: var(--switch-slider-color);
+	--switch-slider-checked: hsl(342, 100%, 70.6%);
+	--switch-color-modifier: 1.3;
+	--slider-bar-background: hsl(from hsl(342, 100%, 70.6%) h calc(s * 0.36) calc(l * 0.32));
+	--slider-mark-color: hsl(from hsl(342, 100%, 70.6%) h calc(s * 0.33) calc(l * 0.5));
+	--md-ripple-color: 343, 100%, 96.5%;
+	--scrollbar-color: hsl(342, 100%, 86%);
+	--text-brand: hsl(342, 100%, 70.6%);
+	--text-link: hsl(342, 100%, 70.6%);
+}
+
+:root {
+    /* APP FONT SETTINGS */
+    --app-font: "Rixlovefool Cyrillic Patch";
+    --app-font-width: 100;
+    --app-font-roundness: 100;
+
+	--app-watermark-one: "uWu";
+	--app-watermark-two: "Discord";
+
+	/* ACCENT HSL AND TEXT COLOR SETTINGS (Mapped to kitty foreground: #ff6996) */
+	--accent-hue: 342;
+	--accent-saturation: 100%;
+	--accent-lightness: 71%;
+	--accent-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
+	--accent-button-action: hsl(0,0%,100%);
+
+	/* ALERT HSL AND TEXT COLOR SETTINGS (Mapped to kitty color1: #ff595f) */
+	--alert-hue: 358;
+    --alert-saturation: 100%;
+    --alert-lightness: 67.5%;
+	--alert-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
+
+	/* WARNING HSL AND TEXT COLOR SETTINGS (Mapped to kitty color3: #ffdd59) */
+	--warning-hue: 48;
+    --warning-saturation: 100%;
+    --warning-lightness: 67.5%;
+	--warning-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
+
+	/* MESSAGE SETTINGS */
+	--message-radius: 18px;
+	--message-padding-top: 8px;
+	--message-padding-side: 12px;
+
+	/* MESSAGE MEDIA SETTINGS */
+	--media-radius: 10px;
+
+	/* CARD SETTINGS */
+	--card-radius: 8px;
+	--card-radius-big: 18px;
+
+	/* BUTTON SETTINGS */
+	--button-height: 40px;
+	--button-padding: 16px;
+	--button-action-color: hsl(0,0%,100%);
+
+	/* INPUT SETTINGS */
+	--input-height: 40px;
+	--input-padding: 12px;
+
+	/* POPOUT AND MODAL SETTINGS */
+	--popout-radius: 8px;
+	--popout-radius-big: 18px;
+
+	/* TOOLTIP SETTINGS */
+	--tooltip-color: hsl(342,50%,20%,0.9); /* Tinted dark pink to blend with the palette */
+	--tooltip-text-color: hsl(0,0%,87%);
+	--tooltip-font-size: 12px;
+	--tooltip-padding: 8px;
+	--tooltip-radius: 8px;
+
+	/* SCROLLBAR SETTINGS */
+	--scrollbar-width: 10px;
+	--scrollbar-thin-width: 6px;
+}
+
+@font-face {
+  font-family: "Rixlovefool Cyrillic Patch";
+  font-style: normal;
+  font-weight: normal; /* Change back to 1 1000 ONLY if it is a Variable Font */
+  font-display: swap;
+  src: url("https://github.com/nijon4rch/nijond0ts/raw/refs/heads/main/.local/share/fonts/rixlovefoolcyrillic.ttf") format("truetype");
+}
