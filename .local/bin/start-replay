@@ -1,1 +1,1 @@
-gpu-screen-recorder -w screen -f 60 -a default_output -r 30 -c mp4 -o ~/Videos/Replays/ -bm cbr -q 12000
+gpu-screen-recorder -w screen -f 60 -a "$(pactl get-default-sink).monitor|$(pactl get-default-source)" -r 30 -c mp4 -o ~/Videos/Replays/ -bm cbr -q 12000

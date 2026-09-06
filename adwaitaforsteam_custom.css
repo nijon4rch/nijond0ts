@@ -1,0 +1,68 @@
+:root {
+    /* Primary Brand Colors */
+    --adw-accent-bg-light: #21000f;
+    --adw-accent-bg-dark: #21000f;
+    --adw-accent-fg: #f06292;
+
+    /* Destructive/Error (Kept mostly original, adjusted text contrast) */
+    --adw-destructive-bg-light: var(--adw-red-3);
+    --adw-destructive-bg-dark: var(--adw-red-4);
+    --adw-destructive-fg: #ffffff;
+    --adw-error-bg-light: var(--adw-red-3);
+    --adw-error-bg-dark: var(--adw-red-4);
+    --adw-error-fg: #ffffff;
+
+    /* Success/Warning */
+    --adw-success-bg-light: var(--adw-green-4);
+    --adw-success-bg-dark: var(--adw-green-5);
+    --adw-success-fg: #ffffff;
+    --adw-warning-bg-light: var(--adw-yellow-5);
+    --adw-warning-bg-dark: #cd9309;
+    --adw-warning-fg: rgba(0,0,0,0.8);
+
+    /* Main Surface Areas */
+    --adw-window-bg: #21000f;
+    --adw-window-fg: #f06292;
+    --adw-view-bg: #21000f;
+    --adw-view-fg: #f06292;
+
+    /* Headerbar */
+    --adw-headerbar-bg: #21000f;
+    --adw-headerbar-fg: #f06292;
+    --adw-headerbar-backdrop: #21000f;
+    --adw-headerbar-shade: rgba(0, 0, 0, 0.36);
+    --adw-headerbar-darker-shade: rgba(0, 0, 0, 0.5);
+
+    /* Sidebars (Using elements-background for contrast) */
+    --adw-sidebar-bg: #330916;
+    --adw-sidebar-fg: #f06292;
+    --adw-sidebar-backdrop: #21000f;
+    --adw-sidebar-shade: rgba(0, 0, 0, 0.25);
+
+    --adw-secondary-sidebar-bg: #330916;
+    --adw-secondary-sidebar-fg: #f06292;
+    --adw-secondary-sidebar-backdrop: #21000f;
+    --adw-secondary-sidebar-shade: rgba(0, 0, 0, 0.25);
+
+    /* Cards, Dialogs, and Popovers (Using elements-background) */
+    --adw-card-bg: #330916;
+    --adw-card-fg: #f06292;
+    --adw-card-shade: rgba(0, 0, 0, 0.36);
+
+    --adw-dialog-bg: #330916;
+    --adw-dialog-fg: #f06292;
+
+    --adw-popover-bg: #330916;
+    --adw-popover-fg: #f06292;
+    --adw-popover-shade: rgba(0, 0, 0, 0.25);
+
+    /* Miscellaneous Elements */
+    --adw-thumbnail-bg: #330916;
+    --adw-thumbnail-fg: #f06292;
+    --adw-shade: rgba(0, 0, 0, 0.25);
+    --adw-banner: #330916;
+
+    --adw-user-offline: #5e5e5e;
+    --adw-user-online: #f06292; /* Using foreground color for online status */
+    --adw-user-ingame: var(--adw-green-3);
+}

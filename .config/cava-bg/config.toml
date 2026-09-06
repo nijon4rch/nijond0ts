@@ -1,0 +1,183 @@
+[general]
+framerate = 60
+preferred_outputs = []
+dynamic_colors = false
+corner_radius = 0.0
+disable_audio = false
+
+[general.background_color]
+hex = "#000000"
+alpha = 0.0
+
+[audio]
+bar_count = 76
+bar_width = 5.0
+bar_spacing = 2.0
+gap = 0.10000000149011612
+bar_alpha = 1.0
+height_scale = 1.0
+smoothing = 1.0
+max_bar_height = 100.0
+min_bar_height = 0.0
+bar_shape = "Line"
+corner_radius = 6.0
+corner_segments = 8
+_legacy_bar_gradient = false
+extract_colors_from_wallpaper = false
+color_extraction_mode = "Dominant"
+visualization_mode = "MirrorBars"
+polygon_sides = 6
+show_visualizer = true
+radial_inner_radius = 30.0
+radial_sweep_angle = 360.0
+waveform_line_width = 2.0
+waveform_smoothness = 0.5
+block_size = 10.0
+block_spacing = 2.0
+spiral_turns = 2.0
+mirror_gap = 0.03999999910593033
+
+[audio.bar_color]
+hex = "#ff00ff"
+alpha = 1.0
+
+[colors]
+extract_from_wallpaper = true
+extraction_mode = "Dominant"
+palette = [
+    [
+    0.1882352977991104,
+    0.07058823853731155,
+    0.1882352977991104,
+    1.0,
+],
+    [
+    0.6980392336845398,
+    0.20000000298023224,
+    0.37254902720451355,
+    1.0,
+],
+    [
+    0.7215686440467834,
+    0.5529412031173706,
+    0.7411764860153198,
+    1.0,
+],
+    [
+    0.9019607901573181,
+    0.7529411911964417,
+    0.7529411911964417,
+    1.0,
+],
+]
+gradient_direction = "BottomToTop"
+use_gradient = true
+
+[display]
+position = "Fill"
+anchor_top = true
+anchor_bottom = true
+anchor_left = true
+anchor_right = true
+width = 0
+height = 0
+margin_top = 0
+margin_bottom = 0
+margin_left = 0
+margin_right = 0
+layer = "Bottom"
+opacity = 1.0
+scale_with_resolution = false
+
+[smoothing]
+monstercat = 1.0
+
+[parallax]
+enabled = false
+mode = "Hybrid"
+enable_3d_depth = false
+layers = []
+show_visualizer = true
+visualizer_as_parallax_layer = false
+visualizer_layer_index = 0
+profiles_dir = "/home/nijon/.config/cava-bg/parallax"
+profile_source = "wallpaper"
+
+[parallax.mouse]
+enabled = true
+sensitivity = 0.3499999940395355
+range = 1.0
+global_tracking = true
+per_output_tracking = true
+
+[parallax.performance]
+disable_under_load = false
+frame_time_budget_ms = 18.0
+lazy_load_assets = true
+pause_on_idle = true
+
+[wallpaper]
+auto_detect_wallpaper = true
+sync_interval_seconds = 10.0
+
+[xray_mask]
+intensity = 0.800000011920929
+gamma = 1.2000000476837158
+opacity = 1.0
+blend_mode = "Normal"
+use_background = false
+
+[xray]
+enabled = false
+intensity = 0.800000011920929
+blend_mode = "Normal"
+base_layer_path = ""
+reveal_layer_path = ""
+auto_detect = true
+use_background_color = false
+background_color = [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+]
+animation_enabled = false
+animation_type = "None"
+animation_speed = 1.0
+audio_sensitivity = 1.0
+auto_detect_wallpaper_fps = true
+
+[performance]
+vsync = true
+multi_threaded_decode = true
+
+[performance.idle_mode]
+enabled = true
+audio_threshold = 0.014999999664723873
+timeout_seconds = 5.0
+idle_fps = 10
+exit_transition_ms = 250
+
+[performance.video_decoder]
+lazy_init = true
+auto_shutdown = true
+shutdown_after_seconds = 20.0
+pause_on_idle = true
+debug_telemetry = false
+
+[performance.xray]
+prescale_max_dimension = 2048
+generate_mipmaps = true
+mask_compute_mode = "Auto"
+
+[performance.telemetry]
+enabled = false
+metrics_window = 240
+log_interval_seconds = 5
+
+[advanced]
+verbose_logging = false
+frame_rate_limit = 60
+layer_cache_size = 5
+
+[output]
